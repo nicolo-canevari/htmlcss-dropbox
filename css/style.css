@@ -54,6 +54,29 @@ section {
     border: 2px solid black;
 }
 
+.container_section_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background-color: violet;
+    border: 2px solid black;
+}
+
+.container_section_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 1800px;
+    background-color: rgb(243, 58, 58);
+    border: 2px solid black;
+}
+
 
 /* REGOLE ITEM DEI BOX */
 
@@ -135,7 +158,9 @@ section {
     width: 15%;
     height: 600px;
     background-color: darkmagenta;
-    margin-right: 35px;
+    margin-right: 25px;
+    border: 2px solid black;
+    position: relative;
 }
 
 .proposte_subscription_row {
@@ -145,5 +170,70 @@ section {
     position: absolute;
     bottom: 100px;
     left: 25%;
+    border: 2px solid black;
+}
 
+/* .line {
+    width: 100%;
+    height: 10px solid black;
+    margin-top: 100px;
+} */
+
+
+/* section_2 */
+
+.text_box {
+    width: 18%;
+    height: 500px;
+    background-color: orange;
+    right: 22%;
+    position: absolute;
+}
+
+.figure {
+    width: 25%;
+    height: 500px;
+    background-color: teal;
+    left: 30%;
+    position: absolute;
+}
+
+
+/* section_3 */
+
+.tool_box {
+    display: flex;
+    width: 40%;
+    background-color: white;
+}
+
+.strumenti {
+    width: 33%;
+    height: 550px;
+    background-color: steelblue;
+    margin: 1px;
+}
+
+#title_pre_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 20%;
+    background-color: royalblue;
+    position: absolute;
+    left: 30%;
+    bottom: 100px;
+}
+
+#our_client {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 20%;
+    background-color: rgb(6, 240, 92);
+    position: absolute;
+    left: 30%;
+    bottom: 40px;
 }
