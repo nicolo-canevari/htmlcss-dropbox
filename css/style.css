@@ -22,8 +22,8 @@ section {
 .container_nav {
     display: flex;
     width: 50%;
-    background-color: red;
-    border: 2px solid black;
+    /* background-color: red; */
+    /* border: 2px solid black; */
     height: 80px;
 }
 
@@ -38,7 +38,7 @@ section {
     align-items: center;
     position: relative;
     width: 100%;
-    height: 700px;
+    height: 1000px;
     background-color: chartreuse;
     border: 2px solid black;
 }
@@ -93,21 +93,62 @@ section {
 
 /* header */
 .logo_drop_box {
-    width: 200px;
+    display: flex;
+    align-items: center;
+    width: 150px;
     height: 100%;
     background-color: blue;
 }
 
 .link_nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
     width: 400px;
     height: 100%;
     background-color: aquamarine;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.link_nav_end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+    background-color: aquamarine;
+    gap: 10px;
+    font-size: 20px;
 }
 
 #button_nav {
-    width: 200px;
+    display: flex;
+    width: 150px;
     height: 100%;
     background-color: blueviolet;
+    position: relative;
+}
+
+.login {
+    width: 40%;
+    height: 40px;
+    background-color: #0162ff;
+    color: white;
+    border: none;
+    font-size: 18px;
+    position: absolute;
+    top: 25%;
+    left: 2%;
+}
+
+.link_nav a {
+    text-decoration: none;
+}
+
+.link_nav_end a {
+    text-decoration: none;
 }
 
 /* jumbotron */
@@ -116,14 +157,22 @@ section {
 }
 
 .jumbotron_title {
-    width: 60%;
-    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+    /* height: 100px; */
     background-color: chocolate;
     top: 30px;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-size: 80px;
 }
 
 .jumbotron_text {
-    width: 30%;
+
+    width: 20%;
     height: 500px;
     background-color: darkgoldenrod;
     left: 20%;
@@ -136,6 +185,25 @@ section {
     background-color: darkolivegreen;
     right: 20%;
     margin-top: 100px;
+}
+
+p {
+    font-size: 20px;
+}
+
+span {
+    font-size: 20px;
+}
+
+#jumbotron_button{
+    height: 40px;
+    width: 220px;
+    font-size: 20px;
+    margin-top: 40px;
+    color: white;
+    background-color: #0162ff;
+    border: none;
+    margin-bottom: 20px;
 }
 
 /* section_1 */
@@ -256,14 +324,14 @@ section {
     height: 500px;
     width: 15%;
     background-color: black;
-    margin: 20px;
+    margin: 2px;
 }
 
 #footer_line {
     height: 2px;
     width: 350px;
     position: absolute;
-    left: 10%;
+    left: 12%;
     background-color: white;
     bottom: 60px;
 }
@@ -274,6 +342,6 @@ section {
     background-color: black;
     position: absolute;
     bottom: 0;
-    left: 10%;
+    left: 12%;
 }
 
