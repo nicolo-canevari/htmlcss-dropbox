@@ -102,7 +102,7 @@ section {
 
 .link_nav {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     padding-left: 30px;
     width: 400px;
@@ -114,7 +114,7 @@ section {
 
 .link_nav_end {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     width: 400px;
     height: 100%;
@@ -155,6 +155,17 @@ section {
 .jumbotron {
     position: absolute;
 }
+
+button {
+    cursor: pointer;
+}
+
+#harrow {
+    cursor: pointer;
+    
+
+}
+
 
 .jumbotron_title {
     display: flex;
@@ -230,6 +241,7 @@ span {
     width: 40%;
     height: 100px;
     background-color: aqua;
+    left: 14%;
     position: absolute;
     top: 40px;
 }
@@ -246,7 +258,7 @@ h2 {
     height: 50px;
     background-color: yellow;
     position: absolute;
-    left: 30%;
+    left: 14%;
     top: 200px;
 }
 
@@ -255,7 +267,7 @@ h2 {
     font-size: 20px;
     width: 20px;
     height: 20px;
-    border: 5px solid gray; 
+    border: 5px solid white; 
     border-radius: 50%;
     cursor: pointer;
     background-color: white;
@@ -275,7 +287,7 @@ h2 {
 }
 
 .proposte_subscription {
-    width: 28%;
+    width: 432px;
     height: 600px;
     background-color: white;
     margin-right: 25px;
@@ -344,6 +356,7 @@ span_costi {
     font-size: 20px;
     color: white;
     background-color: #0162ff;
+    border:none;
 }
 
 .subscription_link {
@@ -368,21 +381,44 @@ h5 {
 
 .title_subscription_row {
     margin-top: 10px;
-    margin-right: 10px;
 }
 
 .subscription_text_row {
-   
-    margin-top: 60px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: 100px;
+    left: 30px;
 }
+
+
+#span_office {
+    margin-top: 10px;
+}
+
+#office {
+    margin-top: 20px;
+}
+
+#office_button {
+    position: absolute;
+    font-size: 20px;
+    top: 0px;
+    right: 60px;
+    color: white;
+    background-color: #0162ff;
+    border: none;
+    padding: 10px;
+}
+
 
 /* section_2 */
 
 .text_box {
-    width: 18%;
+    width: 30%;
     height: 500px;
     background-color: orange;
-    right: 22%;
+    right: 18%;
     position: absolute;
 }
 
@@ -400,7 +436,7 @@ h5 {
     width: 25%;
     height: 500px;
     background-color: teal;
-    left: 15%;
+    left: 14%;
     position: absolute;
 }
 
@@ -479,7 +515,8 @@ h5 {
 }
 
 .ul li {
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    cursor: pointer;
 }
 
 #footer_line {
@@ -499,5 +536,6 @@ h5 {
     position: absolute;
     bottom: 0;
     left: 12%;
+    cursor: pointer;
 }
 
