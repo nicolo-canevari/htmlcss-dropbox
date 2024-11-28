@@ -25,8 +25,6 @@ section {
 .container_nav {
     display: flex;
     width: 50%;
-    /* background-color: red; */
-    /* border: 2px solid black; */
     height: 80px;
 }
 
@@ -105,7 +103,6 @@ section {
     align-items: center;
     padding-left: 30px;
     width: 400px;
-    /* height: 100%; */
     background-color: white;
     gap: 10px;
     font-size: 20px;
@@ -116,7 +113,6 @@ section {
     justify-content: space-between;
     align-items: center;
     width: 400px;
-    /* height: 100%; */
     background-color: white;
     gap: 10px;
     font-size: 20px;
@@ -125,7 +121,6 @@ section {
 #button_nav {
     display: flex;
     width: 150px;
-    /* height: 100%; */
     background-color: white;
     position: relative;
 }
@@ -197,7 +192,6 @@ h1 {
 .jumbotron_text {
 
     width: 20%;
-    /* height: 500px; */
     background-color: #b4d0e6;
     left: 20%;
     margin-top: 300px;
@@ -447,14 +441,12 @@ h5 {
 
 .figure {
     width: 35%;
-    /* height: 500px; */
     background-color: white;
     left: 14%;
     position: absolute;
 }
 
 #figure_img_section {
-    /* height: 600px; */
     max-width: 100%;
 }
 
@@ -552,3 +544,13 @@ h5 {
     cursor: pointer;
 }
 
+li {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+li .fa-solid {
+    margin-right: 10px;
+
+}
