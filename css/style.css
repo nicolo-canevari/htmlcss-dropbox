@@ -39,8 +39,7 @@ section {
     position: relative;
     width: 100%;
     height: 800px;
-    background-color: chartreuse;
-    border: 2px solid black;
+    background-color: #4bd0e6;
 }
 
 .container_section_1 {
@@ -50,8 +49,7 @@ section {
     position: relative;
     width: 100%;
     height: 1200px;
-    background-color:darkseagreen;
-    border: 2px solid black;
+    background-color:white;
 }
 
 .container_section_2 {
@@ -61,8 +59,7 @@ section {
     position: relative;
     width: 100%;
     height: 700px;
-    background-color: violet;
-    border: 2px solid black;
+    background-color: white;
 }
 
 .container_section_3 {
@@ -73,8 +70,7 @@ section {
     position: relative;
     width: 100%;
     height: 1800px;
-    background-color: rgb(243, 58, 58);
-    border: 2px solid black;
+    background-color: white;
 }
 
 .footer_container {
@@ -84,7 +80,7 @@ section {
     position: relative;
     width: 100%;
     height: 700px;
-    background-color: rgb(252, 5, 232);
+    background-color:black;
     border: 2px solid black;
 }
 
@@ -97,7 +93,7 @@ section {
     align-items: center;
     width: 150px;
     height: 100%;
-    background-color: blue;
+    background-color: white;
 }
 
 .link_nav {
@@ -107,7 +103,7 @@ section {
     padding-left: 30px;
     width: 400px;
     height: 100%;
-    background-color: aquamarine;
+    background-color: white;
     gap: 10px;
     font-size: 20px;
 }
@@ -118,7 +114,7 @@ section {
     align-items: center;
     width: 400px;
     height: 100%;
-    background-color: aquamarine;
+    background-color: white;
     gap: 10px;
     font-size: 20px;
 }
@@ -127,7 +123,7 @@ section {
     display: flex;
     width: 150px;
     height: 100%;
-    background-color: blueviolet;
+    background-color: white;
     position: relative;
 }
 
@@ -171,7 +167,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     max-width: 60%;
-    background-color: chocolate;
+    background-color: #4bd0e6;
     top: 30px;
     word-wrap: break-word;
 }
@@ -184,7 +180,7 @@ h1 {
 
     width: 20%;
     height: 500px;
-    background-color: darkgoldenrod;
+    background-color: #4bd0e6;
     left: 20%;
     margin-top: 300px;
 }
@@ -193,7 +189,7 @@ h1 {
     max-width: 1000px;
     height: 1000px;
     position: relative;
-    background-color: darkolivegreen;
+    
     left: 310px;  
     margin-top: 800px;  
 }
@@ -240,7 +236,7 @@ span {
 .title_h2 {
     width: 40%;
     height: 100px;
-    background-color: aqua;
+    background-color: white;
     left: 14%;
     position: absolute;
     top: 40px;
@@ -256,7 +252,7 @@ h2 {
     gap: 10px;
     width: 30%;
     height: 50px;
-    background-color: yellow;
+    background-color: white;
     position: absolute;
     left: 14%;
     top: 200px;
@@ -271,6 +267,7 @@ h2 {
     border-radius: 50%;
     cursor: pointer;
     background-color: white;
+    border: 1px solid black;
     transition: background-color 0.3s, border-color 0.3s;
 }
 
@@ -335,7 +332,7 @@ h3 {
     margin-top: 30px;
 }
 
-span_costi {
+.span_costi {
     margin-bottom: 10px;
 }
 
@@ -417,7 +414,7 @@ h5 {
 .text_box {
     width: 30%;
     height: 500px;
-    background-color: orange;
+    background-color: white;
     right: 18%;
     position: absolute;
 }
@@ -435,7 +432,7 @@ h5 {
 .figure {
     width: 25%;
     height: 500px;
-    background-color: teal;
+    background-color: white;
     left: 14%;
     position: absolute;
 }
@@ -458,7 +455,7 @@ h5 {
 .strumenti {
     width: 33%;
     height: 550px;
-    background-color: steelblue;
+    background-color: white;
     margin: 1px;
 }
 
@@ -468,7 +465,7 @@ h5 {
     justify-content: center;
     height: 200px;
     width: 30%;
-    background-color: royalblue;
+    background-color: white;
     position: absolute;
     left: 15%;
     bottom: 100px;
@@ -480,9 +477,9 @@ h5 {
     justify-content: center;
     height: 50px;
     width: 20%;
-    background-color: rgb(6, 240, 92);
+    background-color: white;
     position: absolute;
-    left: 15%;
+    left: 10%;
     bottom: 40px;
 }
 
