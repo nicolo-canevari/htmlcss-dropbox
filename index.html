@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="./css/style.css">
     <title>Dropbox</title>
 </head>
@@ -21,7 +21,7 @@
                 <img src="./img/logo-small.png" alt="logo_drop_box">
             </div>
             <div class="link_nav">
-                <a href="Perchè Dropbox">Perché Dropbox</a>
+                <a href="Perchè_Dropbox">Perché Dropbox</a>
                 <a href="Funzioni">Funzioni</a>
                 <a href="Piani e Prezzi">Piani e Prezzi</a>
             </div>
@@ -31,7 +31,7 @@
         <div class="container_nav" id="content_nav_end">
             <div class="link_nav_end">
                 <a href="Supporto">Supporto</a>
-                <a href="Contatta l'ufficio vendite">Contatta l'ufficio vendite</a>
+                <a href="Contatta_l_ufficio_vendite">Contatta l'ufficio vendite</a>
                 <a href="Accedi">Accedi</a>
             </div>
             <div id="button_nav">
@@ -40,8 +40,9 @@
         </div>
     </header>
 
-    <!-- CORPO DEI CONTENUTI -->
+   
     <main>
+         <!-- CORPO DEI CONTENUTI -->
         <section>
             <div class="container_section">
                 <div class="jumbotron jumbotron_title">
@@ -68,24 +69,88 @@
         <!-- SEZIONE 1 -->
              <div class="container_section_1">
                 <div id="section_line"></div>
+
                 <div class="title_h2">
                     <h2>Trova il tuo piano buisness che fa per te</h2>
                 </div>
-                <div class="check_me"></div>
+                <div class="check_me">
+                    <input class="blue_circle" type="checkbox"  name="agree">Fatturazione mensile
+                    <input class="blue_circle" type="checkbox" name="agree">Fatturazione annuale
+                </div>
+
                 <div class="subscription">
                     <div class="proposte_subscription ">
+                        <div class="title_subscription">
+                            <i class="fa-solid fa-user"></i>
+                            <span> Singolo</span>
+                        </div>
                         <div class="line"></div>
-                    </div>
-                    <div class="proposte_subscription">
-                        <div class="line">
+
+                        <div class="subscription_text">
+                            <h3>Professional</h3>
 
                         </div>
+
+                        
+
                     </div>
                     <div class="proposte_subscription">
+                        <div class="title_subscription">
+                            <i class="fa-solid fa-users"></i>
+                            <span>Team</span>
+                        </div>
+                        <div class="line"></div>
+                                    
+                       <div class="subscription_text">
+                            <h3>Advance</h3>
+                            <div>
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+
+                            <button></button>
+
+                            <span><a href=""></a></span>
+
+                            <div class="little_line"></div>
+
+                            <h5></h5>
+
+                            <ul>
+                                <li></li>
+                                <li></li>
+                            </ul>
+
+                            
+                        </div>
+
+                    </div>
+                    <div class="proposte_subscription">
+                        <div class="title_subscription">
+                            <i class="fa-solid fa-building"></i>
+                            <span>Azienda</span>
+                        </div>
                         <div class="line"></div>
                     </div>
+
+                    
+
                     <div class="proposte_subscription_row">
+                       <div class="title_subscription">
+                           <i class="fa-solid fa-building"></i>
+                           <span>Team</span>
+                       </div>
                         <div class="line_row"></div>
+                        
+                        <div class="subscription_text">
+                            <h3>Professional</h3>
+                            
+                        </div>
                     </div>
                 </div>
              </div>
@@ -94,8 +159,14 @@
         <section>
             <!-- SEZIONE 2 -->
             <div class="container_section_2">
-                <div class="text_box"></div>
-                <div class="figure"></div>
+                <div class="text_box">
+                    <h3>Entra in contatto con un partner Dropbox</h3>
+                    <p class="img_text_section">Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+                    <button id="text_button_class">Trova un partner</button>
+                </div>
+                <div class="figure">
+                    <img id="figure_img_section" src="./img/partner.png" alt="">
+                </div>
             </div>
         </section>
 
@@ -103,19 +174,44 @@
         <section>
             <!-- SEZIONE 3 -->
             <div class="container_section_3">
-                <div class="title_h2"></div>
-                <div class="tool_box">
-                     <div class="strumenti"></div>
-                     <div class="strumenti"></div>
-                     <div class="strumenti"></div>
+                <div class="title_h2">
+                    <h2>Esegui più operazioni con dropbox Buisness</h2>
                 </div>
                 <div class="tool_box">
-                     <div class="strumenti"></div>
-                     <div class="strumenti"></div>
-                     <div class="strumenti"></div>
+                    <div class="strumenti">
+                        <img class="grid_img" src="img/business-feature-coordinate-it.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    </div>
+                    <div class="strumenti">
+                        <img class="grid_img" src="img/business-feature-coordinate-it.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    </div>
+                    <div class="strumenti">
+                        <img class="grid_img" src="img/business-feature-coordinate-it.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p>
+                    </div>
+               </div>
+               <div class="tool_box">
+                    <div class="strumenti"><img class="grid_img" src="img/business-feature-coordinate-it.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p></div>
+                    <div class="strumenti"><img class="grid_img" src="img/business-feature-coordinate-it.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p></div>
+                    <div class="strumenti"><img class="grid_img" src="img/business-feature-coordinate-it.png" alt="">
+                        <h3>Passa di meno da uno strumento all'altro</h3>
+                        <p>Porta a termine le attività quotidiane con un solo strumento. Crea, modifica e condividi contenuti cloud da Documenti, Fogli e Presentazioni di Google, file Microsoft Office e Dropbox Paper direttamente da Dropbox.</p></div>
+               </div>
+
+                <div id="title_pre_footer">
+                    <h2>Più di 500.000 team utilizzano Dropbpx Buisness</h2>
                 </div>
-                <div id="title_pre_footer"></div>
-                <div id="our_client"></div>
+                <div id="our_client">
+                    <a href="">Scorpi di più sui nostri clienti</a>
+                </div>
                 
             </div>
             
@@ -125,13 +221,68 @@
         <footer>
             <!-- FOOTER -->
              <div class="footer_container">
-                <div class="footer_list"></div>
-                <div class="footer_list"></div>
-                <div class="footer_list"></div>
-                <div class="footer_list"></div>
-                <div class="footer_list"></div>
-                <div id="footer_line"></div>
-                <div id="selettore_lingua"></div>
+                <div class="footer_list">
+                    <h3 class="footer_title">Dropbox</h3>
+                    <ul class="ul">
+                        <li>Applicazione desktop</li>
+                        <li>Perchè Dropbox</li>
+                        <li>Piani</li>
+                        <li>Sicurezza</li>
+                        <li>Funzioni</li>
+                    </ul>
+                </div>
+
+                <div class="footer_list">
+                    <h3 class="footer_title"> Prodotti</h3>
+                    <ul class="ul">
+                        <li>Applicazione desktop</li>
+                        <li>Perchè Dropbox</li>
+                        <li>Piani</li>
+                        <li>Sicurezza</li>
+                        <li>Funzioni</li>
+                    </ul>
+                </div>
+
+                <div class="footer_list">
+                    <h3 class="footer_title">Azienda</h3>
+                    <ul class="ul">
+                        <li>Applicazione desktop</li>
+                        <li>Perchè Dropbox</li>
+                        <li>Piani</li>
+                        <li>Sicurezza</li>
+                        <li>Funzioni</li>
+                    </ul>
+                </div>
+
+                <div class="footer_list">
+                    <h3 class="footer_title">Supporto</h3>
+                    <ul class="ul">
+                        <li>Applicazione desktop</li>
+                        <li>Perchè Dropbox</li>
+                        <li>Piani</li>
+                        <li>Sicurezza</li>
+                        <li>Funzioni</li>
+                    </ul>
+                </div>
+
+                <div class="footer_list">
+                    <h3 class="footer_title">Community</h3>
+                    <ul class="ul">
+                        <li>Applicazione desktop</li>
+                        <li>Perchè Dropbox</li>
+                        <li>Piani</li>
+                        <li>Sicurezza</li>
+                        <li>Funzioni</li>
+                    </ul>
+                </div>
+
+                <div id="footer_line">
+                </div>
+
+                <div id="selettore_lingua">
+                    <i class="fa-solid fa-earth-americas"> Italiano <i class="fa-solid fa-sort-up"></i></i>
+                </div>
+               
              </div>
              
         </footer>
