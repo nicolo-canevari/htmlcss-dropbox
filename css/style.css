@@ -275,7 +275,7 @@ h2 {
 }
 
 .proposte_subscription {
-    width: 15%;
+    width: 28%;
     height: 600px;
     background-color: white;
     margin-right: 25px;
@@ -286,12 +286,12 @@ h2 {
 .proposte_subscription_row {
     display: flex;
     justify-content: center;
-    height: 15%;
-    width: 39%;
+    height: 20%;
+    width: 70%;
     background-color: white;
     position: absolute;
-    bottom: 100px;
-    left: 30%;
+    bottom: 50px;
+    left: 275px;
     border: 2px solid black;
 }
 
@@ -309,17 +309,72 @@ h2 {
     width: 100%;
 }
 
+.title_subscription {
+    margin-left: 160px;
+    margin-top: 10px ;
+}
+
 h3 {
     font-size: 28px;
 }
 
-/* .title_subscription {
-    margin-top: 10px;
-}
 .subscription_text {
-    margin-bottom: 30px;
-} */
+    margin-left: 10px;
+    margin-top: 30px;
+}
 
+span_costi {
+    margin-bottom: 10px;
+}
+
+.ul_subscription {
+    margin-top: 30px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.ul_subscription li {
+    margin-bottom: 10px;
+}
+
+.subscription_button {
+    margin-top: 30px;
+    margin-left: 80px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #0162ff;
+}
+
+.subscription_link {
+    margin-top: 20px;
+}
+
+.mini_line {
+    border: 1px solid grey;
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer_span {
+    color: #0162ff;
+}
+
+.title_subscription_row {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.subscription_text_row {
+   
+    margin-top: 60px;
+}
 
 /* section_2 */
 
